@@ -12,7 +12,7 @@ export default function GamesPage() {
 },
     {
       title: "Project Beta",
-      status: "In Development",
+      status: "Concept",
       description:
         "An atmospheric experience exploring the edge of the unknown.",
     },
