@@ -4,12 +4,12 @@ export const metadata = {
 
 export default function GamesPage() {
   const games = [
-    {
-      title: "Project Alpha",
-      status: "In Development",
-      description:
-        "A story-rich adventure where chaos and discovery collide.",
-    },
+   {
+  title: "Lasting Glory",
+  status: "In Development",
+  description:
+    "A fast-paced arena shooter built around movement, gunplay, and climbing the ranks.",
+},
     {
       title: "Project Beta",
       status: "In Development",
