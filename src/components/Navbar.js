@@ -8,7 +8,6 @@ const links = [
   { href: "/games", label: "Games" },
   { href: "/studio", label: "Studio" },
   { href: "/news", label: "News" },
-  { href: "/contact", label: "Contact Us" },
 ];
 
 export default function Navbar() {
@@ -38,7 +37,9 @@ export default function Navbar() {
             >
               {link.label}
             </Link>
-          ))}
+          ))}          <span className="text-sm font-medium tracking-wide text-[#8a95a5]">
+            Coming Soon
+          </span>
         </nav>
 
         {/* Mobile menu button */}
@@ -64,7 +65,9 @@ export default function Navbar() {
               >
                 {link.label}
               </Link>
-            ))}
+            ))}            <span className="text-base font-medium tracking-wide text-[#8a95a5] py-3">
+              Coming Soon
+            </span>
           </nav>
         </div>
       )}
