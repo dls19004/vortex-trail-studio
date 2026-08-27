@@ -22,7 +22,7 @@ export default function Navbar() {
             alt="Vortex Trail Studio"
             width={160}
             height={40}
-            className="h-7 sm:h-9 w-auto max-w-[150px] sm:max-w-none object-contain"
+            className="h-8 w-auto max-w-[128px] sm:h-10 sm:max-w-[180px] md:h-11 md:max-w-[210px] object-contain object-left mix-blend-screen"
             priority
           />
         </Link>
