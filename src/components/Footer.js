@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto flex flex-col items-center gap-4 sm:gap-6 text-center">
         <Link href="/">
           <Image
-            src="/logo.png"
+            src="/logo.jpg"
             alt="Vortex Trail Studio"
             width={140}
             height={36}
